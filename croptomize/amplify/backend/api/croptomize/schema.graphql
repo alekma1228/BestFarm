@@ -1,0 +1,18 @@
+type TeamMember
+  @model
+  @auth(rules: [{ allow: owner }])
+  @key(fields: ["owner", "memberEmail"])
+  @key(name: "ByMemberEmail", queryField: "teamMemberByEmail", fields: ["memberEmail"]) {
+  owner: String!
+  memberEmail: String!
+  isPaid: Boolean
+}
+
+type CroptomizeUser @model @auth(rules: [{ allow: owner }]) @key(fields: ["owner", "email"]) {
+  owner: String!
+  email: String!
+  numberOfSeats: Int
+  stripeCustomerId: String
+  hasSubscription: Boolean
+  subscriptionDate: AWSDateTime
+}

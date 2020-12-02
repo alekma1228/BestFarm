@@ -1,0 +1,24 @@
+{
+  "name": "stripe",
+  "version": "1.0.0",
+  "description": "Lambda Stripe function",
+  "main": "handler.js",
+  "author": "Sebastian Penafiel",
+  "license": "MIT",
+  "scripts": {
+    "test": "tsc && serverless invoke local --function stripe --path ./test.json"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.46",
+    "@types/lodash": "^4.14.149",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^13.9.2",
+    "@types/stripe": "^7.13.22"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.642.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "stripe": "^8.33.0"
+  }
+}

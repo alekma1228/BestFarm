@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "*.html.ejs": "html",
+        "*.txt.ejs": "txt"
+    },
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/CVS": true,
+        "generators": true,
+        "node_modules": true
+    },
+    "tslint.autoFixOnSave": [
+        "semicolon",
+        "no-trailing-whitespace",
+        "quotemark",
+        "space-before-function-paren",
+        "eofline",
+        "ter-indent",
+        "object-curly-spacing",
+        "prefer-const",
+        "typedef-whitespace",
+        "whitespace"
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "croptomize-prod-20190829180727-authRole",
+            "UnauthRoleArn": "arn:aws:iam::048002056170:role/croptomize-prod-20190829180727-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::048002056170:role/croptomize-prod-20190829180727-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "croptomize-prod-20190829180727-deployment",
+            "UnauthRoleName": "croptomize-prod-20190829180727-unauthRole",
+            "StackName": "croptomize-prod-20190829180727",
+            "StackId": "arn:aws:cloudformation:us-east-1:048002056170:stack/croptomize-prod-20190829180727/c57852d0-cab1-11e9-b0de-0ab87eb901cc",
+            "AmplifyAppId": "d2h3c6yu8ud7op"
+        },
+        "categories": {
+            "auth": {
+                "croptomizeiosanalytics": {},
+                "userPoolGroups": {}
+            },
+            "function": {
+                "croptomizeiosanalyticsPostConfirmation": {},
+                "UpdateCognitoForTeamMember": {},
+                "croptomize": {}
+            }
+        }
+    },
+    "dylandev": {
+        "awscloudformation": {
+            "AuthRoleName": "croptomize-dylandev-20191011161124-authRole",
+            "UnauthRoleArn": "arn:aws:iam::312827214376:role/croptomize-dylandev-20191011161124-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::312827214376:role/croptomize-dylandev-20191011161124-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "croptomize-dylandev-20191011161124-deployment",
+            "UnauthRoleName": "croptomize-dylandev-20191011161124-unauthRole",
+            "StackName": "croptomize-dylandev-20191011161124",
+            "StackId": "arn:aws:cloudformation:us-east-1:312827214376:stack/croptomize-dylandev-20191011161124/ae8972d0-ec6b-11e9-8af7-0aad1b9980b2",
+            "AmplifyAppId": "d3d1v6e14yajlm"
+        },
+        "categories": {
+            "auth": {
+                "croptomizeiosanalytics": {}
+            },
+            "function": {
+                "croptomizeiosanalyticsPostConfirmation": {},
+                "UpdateCognitoForTeamMember": {}
+            }
+        }
+    },
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-croptomize-dev-135412-authRole",
+            "UnauthRoleArn": "arn:aws:iam::048002056170:role/amplify-croptomize-dev-135412-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::048002056170:role/amplify-croptomize-dev-135412-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-croptomize-dev-135412-deployment",
+            "UnauthRoleName": "amplify-croptomize-dev-135412-unauthRole",
+            "StackName": "amplify-croptomize-dev-135412",
+            "StackId": "arn:aws:cloudformation:us-east-1:048002056170:stack/amplify-croptomize-dev-135412/c591efe0-541a-11ea-9241-0e03eb938c18",
+            "AmplifyAppId": "d2h3c6yu8ud7op"
+        },
+        "categories": {
+            "auth": {
+                "croptomizeiosanalytics": {},
+                "userPoolGroups": {}
+            },
+            "function": {
+                "croptomizeiosanalyticsPostConfirmation": {},
+                "UpdateCognitoForTeamMember": {},
+                "croptomize": {}
+            }
+        }
+    },
+    "sebdev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-croptomize-sebdev-114742-authRole",
+            "UnauthRoleArn": "arn:aws:iam::876594000141:role/amplify-croptomize-sebdev-114742-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::876594000141:role/amplify-croptomize-sebdev-114742-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-croptomize-sebdev-114742-deployment",
+            "UnauthRoleName": "amplify-croptomize-sebdev-114742-unauthRole",
+            "StackName": "amplify-croptomize-sebdev-114742",
+            "StackId": "arn:aws:cloudformation:us-east-1:876594000141:stack/amplify-croptomize-sebdev-114742/076b1be0-686f-11ea-895d-1245bb6cedee",
+            "AmplifyAppId": "dldl1xg4cio46"
+        },
+        "categories": {
+            "auth": {
+                "croptomizeiosanalytics": {},
+                "userPoolGroups": {}
+            },
+            "function": {
+                "croptomizeiosanalyticsPostConfirmation": {},
+                "UpdateCognitoForTeamMember": {},
+                "croptomize": {},
+                "croptomizeiosanalytics": {}
+            }
+        }
+    }
+}

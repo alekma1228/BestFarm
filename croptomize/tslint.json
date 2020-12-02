@@ -1,0 +1,23 @@
+{
+    "extends": "tslint-config-standard",
+    "jsRules": {
+        "curly": true
+    },
+    "rules": {
+        "indent": [
+            true,
+            "spaces"
+        ],
+        "curly": true,
+        "no-unused-variable": false,
+        "no-use-before-declare": false,
+        "prefer-const": true,
+        "semicolon": [
+            true,
+            "never",
+            "ignore-bound-class-methods"
+        ],
+        "trailing-comma": false
+    },
+    "rulesDirectory": []
+}

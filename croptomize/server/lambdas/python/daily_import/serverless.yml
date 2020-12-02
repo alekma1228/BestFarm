@@ -1,0 +1,76 @@
+service: daily-import
+
+provider:
+  name: aws
+  runtime: python3.7
+  profile: Croptomize
+  stage: dev
+  region: us-east-2
+  environment:
+    USE_CREDENTIALS: ${self:custom.use_credentials.${self:custom.stage}}
+    IMPORT_BUCKET_NAME: ${self:custom.daily_import_bucket.${self:custom.stage}}
+    STAGE: ${self:custom.stage}
+
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "s3:ListBucket"
+      Resource: arn:aws:s3:::${self:custom.daily_import_bucket.${self:custom.stage}}
+    - Effect: "Allow"
+      Action:
+        - "s3:Get*"
+        - "s3:Put*"
+      Resource: arn:aws:s3:::${self:custom.daily_import_bucket.${self:custom.stage}}/*
+    - Effect: "Allow"
+      Action:
+        - ssm:Get*
+      Resource:
+        - "arn:aws:ssm:${self:provider.region}:#{AWS::AccountId}:parameter/${self:custom.stage}*"
+        - "arn:aws:ssm:${self:provider.region}:#{AWS::AccountId}:parameter${self:custom.stage}*"
+
+functions:
+  copy_files_from_cme:
+    handler: import_scripts/copy_files_from_cme.run
+    timeout: 600
+    memorySize: 512
+  incremental_cme_import:
+    handler: import_scripts/incremental_cme_import.run
+    timeout: 900
+    memorySize: 512
+    vpc:
+      securityGroupIds:
+        - sg-093439c7b2a239810
+      subnetIds:
+        - subnet-01d68fe6909cc92c5
+        - subnet-0d85c9487560d6013
+  incremental_usda_import:
+    handler: import_scripts/incremental_usda_import.run
+    timeout: 900
+    memorySize: 256
+    events:
+      - schedule: cron(0 12 ? * MON-TUE *)
+    vpc:
+      securityGroupIds:
+        - sg-093439c7b2a239810
+      subnetIds:
+        - subnet-01d68fe6909cc92c5
+        - subnet-0d85c9487560d6013
+
+plugins:
+  - serverless-python-requirements
+  - serverless-cf-vars
+
+custom:
+  stage: ${opt:stage, self:provider.stage}
+  daily_import_bucket:
+    local: croptomize-import-data-test2
+    dev: croptomize-import-data-dev
+    prod: croptomize-import-data
+  use_credentials:
+    local: ${self:provider.profile}
+    dev: false
+    prod: false
+  pythonRequirements:
+    dockerizePip: non-linux
+    useDownloadCache: true
+    useStaticCache: true

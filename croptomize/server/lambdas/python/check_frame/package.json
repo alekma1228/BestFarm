@@ -1,0 +1,15 @@
+{
+  "name": "check_frame",
+  "version": "1.0.0",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "serverless-dynamodb-local": "^0.2.38",
+    "serverless-python-requirements": "^4.3.0"
+  },
+  "scripts": {
+    "start_db": "sls dynamodb start --migrate --stage local",
+    "test_frame": "sls invoke local -f check_frame --stage local --path test_data/frame_params.json",
+    "test_import": "sls invoke local -f import_frames --stage local --path test_data/frames.json"
+  }
+}

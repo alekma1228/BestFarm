@@ -1,0 +1,52 @@
+diff --git a/node_modules/navigator.sendbeacon/dist/navigator.sendbeacon.cjs.js b/node_modules/navigator.sendbeacon/dist/navigator.sendbeacon.cjs.js
+index 91d533c..fbfcfcb 100644
+--- a/node_modules/navigator.sendbeacon/dist/navigator.sendbeacon.cjs.js
++++ b/node_modules/navigator.sendbeacon/dist/navigator.sendbeacon.cjs.js
+@@ -46,7 +46,7 @@ function sendBeacon(url, data) {
+ 
+   if (isString(data)) {
+     xhr.setRequestHeader('Content-Type', 'text/plain;charset=UTF-8');
+-    xhr.responseType = 'text/plain';
++    xhr.responseType = 'text';
+   } else if (isBlob(data) && data.type) {
+     xhr.setRequestHeader('Content-Type', data.type);
+   }
+diff --git a/node_modules/navigator.sendbeacon/dist/navigator.sendbeacon.es.js b/node_modules/navigator.sendbeacon/dist/navigator.sendbeacon.es.js
+index 13022a3..329afed 100644
+--- a/node_modules/navigator.sendbeacon/dist/navigator.sendbeacon.es.js
++++ b/node_modules/navigator.sendbeacon/dist/navigator.sendbeacon.es.js
+@@ -44,7 +44,7 @@ function sendBeacon(url, data) {
+ 
+   if (isString(data)) {
+     xhr.setRequestHeader('Content-Type', 'text/plain;charset=UTF-8');
+-    xhr.responseType = 'text/plain';
++    xhr.responseType = 'text';
+   } else if (isBlob(data) && data.type) {
+     xhr.setRequestHeader('Content-Type', data.type);
+   }
+diff --git a/node_modules/navigator.sendbeacon/dist/navigator.sendbeacon.js b/node_modules/navigator.sendbeacon/dist/navigator.sendbeacon.js
+index fde0d57..ee3e30e 100644
+--- a/node_modules/navigator.sendbeacon/dist/navigator.sendbeacon.js
++++ b/node_modules/navigator.sendbeacon/dist/navigator.sendbeacon.js
+@@ -50,7 +50,7 @@
+ 
+     if (isString(data)) {
+       xhr.setRequestHeader('Content-Type', 'text/plain;charset=UTF-8');
+-      xhr.responseType = 'text/plain';
++      xhr.responseType = 'text';
+     } else if (isBlob(data) && data.type) {
+       xhr.setRequestHeader('Content-Type', data.type);
+     }
+diff --git a/node_modules/navigator.sendbeacon/sendbeacon.js b/node_modules/navigator.sendbeacon/sendbeacon.js
+index f52c60b..0f3ab4e 100755
+--- a/node_modules/navigator.sendbeacon/sendbeacon.js
++++ b/node_modules/navigator.sendbeacon/sendbeacon.js
+@@ -26,7 +26,7 @@ function sendBeacon (url, data) {
+ 
+   if (isString(data)) {
+     xhr.setRequestHeader('Content-Type', 'text/plain;charset=UTF-8')
+-    xhr.responseType = 'text/plain'
++    xhr.responseType = 'text'
+   } else if (isBlob(data) && data.type) {
+     xhr.setRequestHeader('Content-Type', data.type)
+   }

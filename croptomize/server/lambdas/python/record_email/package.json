@@ -1,0 +1,12 @@
+{
+  "name": "record_email",
+  "version": "1.0.0",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "serverless-python-requirements": "^4.3.0"
+  },
+  "scripts": {
+    "test": "sls invoke local -f record_email --stage local --path test_data/email_params.json"
+  }
+}

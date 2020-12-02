@@ -1,0 +1,9 @@
+{
+  "queryStringParameters": {
+    "symbol": "ZC",
+    "month_symbol": "Z",
+    "year": "2019",
+    "calculation_range": 2,
+    "check_value_in_cents": 361
+  }
+}

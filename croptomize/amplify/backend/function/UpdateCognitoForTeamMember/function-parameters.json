@@ -1,0 +1,10 @@
+{
+    "permissions": {
+        "auth": {
+            "croptomizeiosanalytics": [
+                "read",
+                "update"
+            ]
+        }
+    }
+}

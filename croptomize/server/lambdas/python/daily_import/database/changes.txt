@@ -1,0 +1,7 @@
+Changes from the old production schema:
+
+- KEY `idx_cme_rawfiledata_BizDt` (`BizDt`) on cme_rawfiledata
+- KEY `idx_setup_commoditytype_CommoditySymbol_CME_GRP_SYM` (`CommoditySymbol_CME_GRP_SYM`),
+  KEY `idx_setup_commoditytype_CommoditySymbol_CME_FO_SYM` (`CommoditySymbol_CME_FO_SYM`),
+  on setup_commoditytype
+- KEY `idx_ta_f_futureshistorytgt_FILE_DATE` (`FILE_DATE`) on ta_f_futureshistorytgt

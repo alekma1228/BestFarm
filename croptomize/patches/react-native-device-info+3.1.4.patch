@@ -1,0 +1,245 @@
+diff --git a/node_modules/react-native-device-info/android/build/generated/source/buildConfig/androidTest/debug/com/learnium/RNDeviceInfo/test/BuildConfig.java b/node_modules/react-native-device-info/android/build/generated/source/buildConfig/androidTest/debug/com/learnium/RNDeviceInfo/test/BuildConfig.java
+new file mode 100644
+index 0000000..cb5478c
+--- /dev/null
++++ b/node_modules/react-native-device-info/android/build/generated/source/buildConfig/androidTest/debug/com/learnium/RNDeviceInfo/test/BuildConfig.java
+@@ -0,0 +1,13 @@
++/**
++ * Automatically generated file. DO NOT MODIFY
++ */
++package com.learnium.RNDeviceInfo.test;
++
++public final class BuildConfig {
++  public static final boolean DEBUG = Boolean.parseBoolean("true");
++  public static final String APPLICATION_ID = "com.learnium.RNDeviceInfo.test";
++  public static final String BUILD_TYPE = "debug";
++  public static final String FLAVOR = "";
++  public static final int VERSION_CODE = 2;
++  public static final String VERSION_NAME = "1.1";
++}
+diff --git a/node_modules/react-native-device-info/android/build/generated/source/buildConfig/debug/com/learnium/RNDeviceInfo/BuildConfig.java b/node_modules/react-native-device-info/android/build/generated/source/buildConfig/debug/com/learnium/RNDeviceInfo/BuildConfig.java
+new file mode 100644
+index 0000000..6a6e499
+--- /dev/null
++++ b/node_modules/react-native-device-info/android/build/generated/source/buildConfig/debug/com/learnium/RNDeviceInfo/BuildConfig.java
+@@ -0,0 +1,13 @@
++/**
++ * Automatically generated file. DO NOT MODIFY
++ */
++package com.learnium.RNDeviceInfo;
++
++public final class BuildConfig {
++  public static final boolean DEBUG = Boolean.parseBoolean("true");
++  public static final String APPLICATION_ID = "com.learnium.RNDeviceInfo";
++  public static final String BUILD_TYPE = "debug";
++  public static final String FLAVOR = "";
++  public static final int VERSION_CODE = 2;
++  public static final String VERSION_NAME = "1.1";
++}
+diff --git a/node_modules/react-native-device-info/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml b/node_modules/react-native-device-info/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml
+new file mode 100644
+index 0000000..e4b9f42
+--- /dev/null
++++ b/node_modules/react-native-device-info/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.learnium.RNDeviceInfo"
++    android:versionCode="2"
++    android:versionName="1.1" >
++
++    <uses-sdk
++        android:minSdkVersion="18"
++        android:targetSdkVersion="28" />
++
++    <application>
++        <receiver
++            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
++            android:enabled="true"
++            android:exported="true" >
++            <intent-filter>
++                <action android:name="com.android.vending.INSTALL_REFERRER" />
++            </intent-filter>
++        </receiver>
++    </application>
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-device-info/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json b/node_modules/react-native-device-info/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json
+new file mode 100644
+index 0000000..13fc038
+--- /dev/null
++++ b/node_modules/react-native-device-info/android/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json
+@@ -0,0 +1 @@
++[{"outputType":{"type":"AAPT_FRIENDLY_MERGED_MANIFESTS"},"apkData":{"type":"MAIN","splits":[],"versionCode":2,"versionName":"1.1","enabled":true,"outputFile":"react-native-device-info-debug.aar","fullName":"debug","baseName":"debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.learnium.RNDeviceInfo","split":""}}]
+\ No newline at end of file
+diff --git a/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml b/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml
+new file mode 100644
+index 0000000..e4b9f42
+--- /dev/null
++++ b/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.learnium.RNDeviceInfo"
++    android:versionCode="2"
++    android:versionName="1.1" >
++
++    <uses-sdk
++        android:minSdkVersion="18"
++        android:targetSdkVersion="28" />
++
++    <application>
++        <receiver
++            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
++            android:enabled="true"
++            android:exported="true" >
++            <intent-filter>
++                <action android:name="com.android.vending.INSTALL_REFERRER" />
++            </intent-filter>
++        </receiver>
++    </application>
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-device-info/android/build/intermediates/merged_manifests/debug/output.json b/node_modules/react-native-device-info/android/build/intermediates/merged_manifests/debug/output.json
+new file mode 100644
+index 0000000..911247c
+--- /dev/null
++++ b/node_modules/react-native-device-info/android/build/intermediates/merged_manifests/debug/output.json
+@@ -0,0 +1 @@
++[{"outputType":{"type":"MERGED_MANIFESTS"},"apkData":{"type":"MAIN","splits":[],"versionCode":2,"versionName":"1.1","enabled":true,"outputFile":"react-native-device-info-debug.aar","fullName":"debug","baseName":"debug"},"path":"../../library_manifest/debug/AndroidManifest.xml","properties":{"packageId":"com.learnium.RNDeviceInfo","split":""}}]
+\ No newline at end of file
+diff --git a/node_modules/react-native-device-info/android/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml b/node_modules/react-native-device-info/android/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml
+new file mode 100644
+index 0000000..79ae22c
+--- /dev/null
++++ b/node_modules/react-native-device-info/android/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml
+@@ -0,0 +1,43 @@
++<?xml version="1.0" encoding="utf-8"?>
++<manifest xmlns:android="http://schemas.android.com/apk/res/android"
++    package="com.learnium.RNDeviceInfo.test" >
++
++    <uses-sdk
++        android:minSdkVersion="18"
++        android:targetSdkVersion="28" />
++
++    <instrumentation
++        android:name="android.test.InstrumentationTestRunner"
++        android:functionalTest="false"
++        android:handleProfiling="false"
++        android:label="Tests for com.learnium.RNDeviceInfo.test"
++        android:targetPackage="com.learnium.RNDeviceInfo.test" />
++    <!-- Required by older versions of Google Play services to create IID tokens -->
++    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
++    <uses-permission android:name="android.permission.INTERNET" />
++
++    <application
++        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
++        android:debuggable="true" >
++        <uses-library android:name="android.test.runner" />
++
++        <receiver
++            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
++            android:enabled="true"
++            android:exported="true" >
++            <intent-filter>
++                <action android:name="com.android.vending.INSTALL_REFERRER" />
++            </intent-filter>
++        </receiver>
++
++        <activity
++            android:name="com.google.android.gms.common.api.GoogleApiActivity"
++            android:exported="false"
++            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
++
++        <meta-data
++            android:name="com.google.android.gms.version"
++            android:value="@integer/google_play_services_version" />
++    </application>
++
++</manifest>
+\ No newline at end of file
+diff --git a/node_modules/react-native-device-info/android/build/intermediates/merged_manifests/debugAndroidTest/output.json b/node_modules/react-native-device-info/android/build/intermediates/merged_manifests/debugAndroidTest/output.json
+new file mode 100644
+index 0000000..cc1befb
+--- /dev/null
++++ b/node_modules/react-native-device-info/android/build/intermediates/merged_manifests/debugAndroidTest/output.json
+@@ -0,0 +1 @@
++[{"outputType":{"type":"MERGED_MANIFESTS"},"apkData":{"type":"MAIN","splits":[],"versionCode":2,"versionName":"1.1","enabled":true,"outputFile":"react-native-device-info-debug-androidTest.apk","fullName":"debugAndroidTest","baseName":"debug-androidTest"},"path":"AndroidManifest.xml","properties":{}}]
+\ No newline at end of file
+diff --git a/node_modules/react-native-device-info/android/build/outputs/logs/manifest-merger-debug-report.txt b/node_modules/react-native-device-info/android/build/outputs/logs/manifest-merger-debug-report.txt
+new file mode 100644
+index 0000000..e1c08dc
+--- /dev/null
++++ b/node_modules/react-native-device-info/android/build/outputs/logs/manifest-merger-debug-report.txt
+@@ -0,0 +1,53 @@
++-- Merging decision tree log ---
++manifest
++ADDED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:1:1-16:12
++INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:1:1-16:12
++INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:1:1-16:12
++INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:1:1-16:12
++INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:1:1-16:12
++INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:1:1-16:12
++INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:1:1-16:12
++	package
++		ADDED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:2:11-46
++		INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml
++		INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml
++	android:versionName
++		INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml
++		ADDED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:1:1-16:12
++		INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml
++	android:versionCode
++		INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml
++		ADDED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:1:1-16:12
++		INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml
++	xmlns:android
++		ADDED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:1:11-69
++application
++ADDED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:4:5-14:19
++receiver#com.learnium.RNDeviceInfo.RNDeviceReceiver
++ADDED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:5:9-13:20
++	android:enabled
++		ADDED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:7:13-35
++	android:exported
++		ADDED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:8:13-36
++	android:name
++		ADDED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:6:13-70
++intent-filter#action:name:com.android.vending.INSTALL_REFERRER
++ADDED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:10:13-12:29
++action#com.android.vending.INSTALL_REFERRER
++ADDED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:11:17-79
++	android:name
++		ADDED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml:11:25-76
++uses-sdk
++INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
++INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml
++INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml
++INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml
++INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml
++	android:targetSdkVersion
++		INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml
++		ADDED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml
++		INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml
++	android:minSdkVersion
++		INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml
++		ADDED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml
++		INJECTED from /Users/arahn/dev/habitaware/node_modules/react-native-device-info/android/src/main/AndroidManifest.xml
+diff --git a/node_modules/react-native-device-info/ios/RNDeviceInfo/RNDeviceInfo.m b/node_modules/react-native-device-info/ios/RNDeviceInfo/RNDeviceInfo.m
+index ab7b7d6..b33f05b 100644
+--- a/node_modules/react-native-device-info/ios/RNDeviceInfo/RNDeviceInfo.m
++++ b/node_modules/react-native-device-info/ios/RNDeviceInfo/RNDeviceInfo.m
+@@ -278,7 +278,10 @@ - (float) getFontScale {
+     
+     // Shared application is unavailable in an app extension.
+     if (application) {
+-        NSString *contentSize = application.preferredContentSizeCategory;
++        __block NSString *contentSize = nil;
++        RCTUnsafeExecuteOnMainQueueSync(^{
++            contentSize = application.preferredContentSizeCategory;
++        });
+         
+         if ([contentSize isEqual: @"UICTContentSizeCategoryXS"]) fontScale = 0.82;
+         else if ([contentSize isEqual: @"UICTContentSizeCategoryS"]) fontScale = 0.88;

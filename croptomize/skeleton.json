@@ -1,0 +1,495 @@
+{
+  "version": 0.2,
+  "featureAreas": {
+    "Subscription": {
+      "views": [
+        "Subscription"
+      ],
+      "navigationType": "None"
+    },
+    "Onboarding ": {
+      "views": [
+        "Onboarding 1",
+        "Onboarding 2",
+        "Onboarding 3",
+        "Onboarding 4",
+        "Onboarding 5"
+      ],
+      "navigationType": "None"
+    },
+    "Create Account": {
+      "views": [
+        "Full Name",
+        "Password",
+        "SMS",
+        "SMS Variant",
+        "SMS Verification"
+      ],
+      "navigationType": "None"
+    },
+    "Market Information": {
+      "views": [
+        "Market Detail",
+        "Market Feed"
+      ],
+      "navigationType": "None"
+    },
+    "Price Check": {
+      "views": [
+        "Croptomize Frame",
+        "Price Check"
+      ],
+      "navigationType": "None"
+    },
+    "Sign In": {
+      "views": [
+        "Email & Password",
+        "Sign In",
+        "Sign In Email & Password"
+      ],
+      "navigationType": "None"
+    },
+    "Adding Crop": {
+      "views": [
+        "Select Active Month",
+        "Select Basis",
+        "Select Crop"
+      ],
+      "navigationType": "None"
+    },
+    "Edit": {
+      "views": [
+        "Edit"
+      ],
+      "navigationType": "None"
+    },
+    "Pro Free Trial Email": {
+      "views": [
+        "Pro Free Trial Email"
+      ],
+      "navigationType": "None"
+    },
+    "Pro Free Trial": {
+      "views": [
+        "Pro Free Trial"
+      ],
+      "navigationType": "None"
+    },
+    "Account": {
+      "views": [
+        "Account"
+      ],
+      "navigationType": "None"
+    },
+    "Subscription With Free Trial": {
+      "views": [
+        "Subscription With Free Trial"
+      ],
+      "navigationType": "None"
+    },
+    "Pay Wall": {
+      "views": [
+        "Localized Pricing",
+        "Price Check Modal",
+        "Pro Free Trial"
+      ],
+      "navigationType": "None"
+    }
+  },
+  "views": {
+    "Subscription": [
+      {
+        "name": "Subscription",
+        "className": "Subscription",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/2c0b8442-2fdf-4a74-ac17-c161ad5f9702",
+        "uuid": "2c0b8442-2fdf-4a74-ac17-c161ad5f9702",
+        "originalTitle": "Croptomize | Subscription (Annual Selected) ",
+        "variant": "Annual Selected"
+      },
+      {
+        "name": "Subscription",
+        "className": "Subscription",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/bcbcda5e-6ef5-4d5c-9d22-d613726d5978",
+        "uuid": "bcbcda5e-6ef5-4d5c-9d22-d613726d5978",
+        "originalTitle": "Croptomize | Subscription (Monthly Selected) ",
+        "variant": "Monthly Selected"
+      }
+    ],
+    "Onboarding 1": [
+      {
+        "name": "Onboarding 1",
+        "className": "Onboarding1",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/b5b5c91b-1b3c-4465-977f-42916516e603",
+        "uuid": "b5b5c91b-1b3c-4465-977f-42916516e603",
+        "originalTitle": "Croptomize | Onboarding 1"
+      }
+    ],
+    "Onboarding 2": [
+      {
+        "name": "Onboarding 2",
+        "className": "Onboarding2",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/a764e598-2528-4419-b25a-6fcfc354a9d2",
+        "uuid": "a764e598-2528-4419-b25a-6fcfc354a9d2",
+        "originalTitle": "Croptomize | Onboarding 2"
+      }
+    ],
+    "SMS Variant": [
+      {
+        "name": "SMS Variant",
+        "className": "SMSVariant",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/acd58217-4b94-442f-9f99-0b48a4e1ec87",
+        "uuid": "acd58217-4b94-442f-9f99-0b48a4e1ec87",
+        "originalTitle": "Croptomize | Create Account – SMS Variant"
+      }
+    ],
+    "Full Name": [
+      {
+        "name": "Full Name",
+        "className": "FullName",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/2affe6fa-838d-47b1-91e7-784409e65275",
+        "uuid": "2affe6fa-838d-47b1-91e7-784409e65275",
+        "originalTitle": "Croptomize | Create Account - Full Name (Focused)",
+        "variant": "Focused"
+      },
+      {
+        "name": "Full Name",
+        "className": "FullName",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/faa7d7fd-308b-4884-aba3-2c7fac5ceaac",
+        "uuid": "faa7d7fd-308b-4884-aba3-2c7fac5ceaac",
+        "originalTitle": "Croptomize | Create Account - Full Name (Focused & Filled Out) ",
+        "variant": "Focused & Filled Out"
+      }
+    ],
+    "Password": [
+      {
+        "name": "Password",
+        "className": "Password",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/f7b27b22-a664-4aa0-a23f-12cac2fcd543",
+        "uuid": "f7b27b22-a664-4aa0-a23f-12cac2fcd543",
+        "originalTitle": "Croptomize | Create Account - Password "
+      },
+      {
+        "name": "Password",
+        "className": "Password",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/1154d9ce-d176-4f25-8b50-4e069d7c18c7",
+        "uuid": "1154d9ce-d176-4f25-8b50-4e069d7c18c7",
+        "originalTitle": "Croptomize | Create Account - Password (Filled Out) ",
+        "variant": "Filled Out"
+      }
+    ],
+    "SMS": [
+      {
+        "name": "SMS",
+        "className": "SMS",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/d7b9112b-a511-4171-9409-e5dc9f045d3e",
+        "uuid": "d7b9112b-a511-4171-9409-e5dc9f045d3e",
+        "originalTitle": "Croptomize | Create Account - SMS (Focused) ",
+        "variant": "Focused"
+      },
+      {
+        "name": "SMS",
+        "className": "SMS",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/2d2bb04d-d5dd-465d-aa8f-9f52a49c00ac",
+        "uuid": "2d2bb04d-d5dd-465d-aa8f-9f52a49c00ac",
+        "originalTitle": "Croptomize | Create Account - SMS (Focused & Filled Out)",
+        "variant": "Focused & Filled Out"
+      }
+    ],
+    "SMS Verification": [
+      {
+        "name": "SMS Verification",
+        "className": "SMSVerification",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/7451b68f-87e5-4da4-88ac-678e49537e86",
+        "uuid": "7451b68f-87e5-4da4-88ac-678e49537e86",
+        "originalTitle": "Croptomize | Create Account - SMS Verification (Focused)",
+        "variant": "Focused"
+      },
+      {
+        "name": "SMS Verification",
+        "className": "SMSVerification",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/30c34839-8bf5-4000-b8d1-8d71ce4e7dd1",
+        "uuid": "30c34839-8bf5-4000-b8d1-8d71ce4e7dd1",
+        "originalTitle": "Croptomize | Create Account - SMS Verification (Focused & Filled Out)",
+        "variant": "Focused & Filled Out"
+      }
+    ],
+    "Market Detail": [
+      {
+        "name": "Market Detail",
+        "className": "MarketDetail",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/584dd8c3-f61e-4cb5-802d-2ad4ccebe0ab",
+        "uuid": "584dd8c3-f61e-4cb5-802d-2ad4ccebe0ab",
+        "originalTitle": "Croptomize | Market Information - Market Detail (Drawer Open) ",
+        "variant": "Drawer Open"
+      },
+      {
+        "name": "Market Detail",
+        "className": "MarketDetail",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/bcee09e1-727d-4b71-b51a-680af4c1ca5f",
+        "uuid": "bcee09e1-727d-4b71-b51a-680af4c1ca5f",
+        "originalTitle": "Croptomize | Market Information - Market Detail"
+      }
+    ],
+    "Market Feed": [
+      {
+        "name": "Market Feed",
+        "className": "MarketFeed",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/7646782f-d60e-41e2-a963-d2fbcfed0a43",
+        "uuid": "7646782f-d60e-41e2-a963-d2fbcfed0a43",
+        "originalTitle": "Croptomize | Market Information - Market Feed (Power User)",
+        "variant": "Power User"
+      },
+      {
+        "name": "Market Feed",
+        "className": "MarketFeed",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/5a407a90-62ca-4160-bad2-490a4c5c978e",
+        "uuid": "5a407a90-62ca-4160-bad2-490a4c5c978e",
+        "originalTitle": "Croptomize | Market Information - Market Feed "
+      }
+    ],
+    "Price Check": [
+      {
+        "name": "Price Check",
+        "className": "PriceCheck",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/10251308-4808-4c0a-a2e3-919ab76537a1",
+        "uuid": "10251308-4808-4c0a-a2e3-919ab76537a1",
+        "originalTitle": "Croptomize | Price Check – (Focused & Filled Out)",
+        "variant": "Focused & Filled Out"
+      },
+      {
+        "name": "Price Check",
+        "className": "PriceCheck",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/288c78f1-60be-426e-97d1-4bec7d2586ab",
+        "uuid": "288c78f1-60be-426e-97d1-4bec7d2586ab",
+        "originalTitle": "Croptomize | Price Check"
+      },
+      {
+        "name": "Price Check",
+        "className": "PriceCheck",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/546ee023-a9e0-4496-b226-9803c1ac2c4e",
+        "uuid": "546ee023-a9e0-4496-b226-9803c1ac2c4e",
+        "originalTitle": "Croptomize | Price Check (Price Calculation)",
+        "variant": "Price Calculation"
+      },
+      {
+        "name": "Price Check",
+        "className": "PriceCheck",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/96b17562-18b9-405a-a164-f5d161323b61",
+        "uuid": "96b17562-18b9-405a-a164-f5d161323b61",
+        "originalTitle": "Croptomize | Price Check (Drawer Open) ",
+        "variant": "Drawer Open"
+      }
+    ],
+    "Croptomize Frame": [
+      {
+        "name": "Croptomize Frame",
+        "className": "CroptomizeFrame",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/cec536e3-6f81-4bfe-b012-0185baac6e3e",
+        "uuid": "cec536e3-6f81-4bfe-b012-0185baac6e3e",
+        "originalTitle": "Croptomize | Price Check - Croptomize Frame"
+      }
+    ],
+    "Email & Password": [
+      {
+        "name": "Email & Password",
+        "className": "EmailPassword",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/9dee5c05-388d-4740-9bb4-91bb56d97c34",
+        "uuid": "9dee5c05-388d-4740-9bb4-91bb56d97c34",
+        "originalTitle": "Croptomize | Sign In - Email & Password (Focused)",
+        "variant": "Focused"
+      }
+    ],
+    "Sign In": [
+      {
+        "name": "Sign In",
+        "className": "SignIn",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/9a7ece79-a83b-40e8-b4e7-25fd625e561a",
+        "uuid": "9a7ece79-a83b-40e8-b4e7-25fd625e561a",
+        "originalTitle": "Croptomize | Sign In"
+      }
+    ],
+    "Select Crop": [
+      {
+        "name": "Select Crop",
+        "className": "SelectCrop",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/bcdfa519-0247-4ed2-9faf-dd0f5436e7b2",
+        "uuid": "bcdfa519-0247-4ed2-9faf-dd0f5436e7b2",
+        "originalTitle": "Croptomize | Adding Crop - Select Crop"
+      },
+      {
+        "name": "Select Crop",
+        "className": "SelectCrop",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/60d97ddc-719b-49d2-bb77-f04eff482a6d",
+        "uuid": "60d97ddc-719b-49d2-bb77-f04eff482a6d",
+        "originalTitle": "Croptomize | Adding Crop - Select Crop (Selected)",
+        "variant": "Selected"
+      }
+    ],
+    "Sign In Email & Password": [
+      {
+        "name": "Sign In Email & Password",
+        "className": "SignInEmailPassword",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/58c27587-3045-413d-98be-e8de60b71371",
+        "uuid": "58c27587-3045-413d-98be-e8de60b71371",
+        "originalTitle": "Croptomize | Sign In - Sign In Email & Password (Focused & Filled)",
+        "variant": "Focused & Filled"
+      }
+    ],
+    "Select Basis": [
+      {
+        "name": "Select Basis",
+        "className": "SelectBasis",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/64c69566-6e09-46c2-92aa-9dab38ee8ee3",
+        "uuid": "64c69566-6e09-46c2-92aa-9dab38ee8ee3",
+        "originalTitle": "Croptomize | Adding Crop - Select Basis (Selected)",
+        "variant": "Selected"
+      },
+      {
+        "name": "Select Basis",
+        "className": "SelectBasis",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/cd9d2014-9f8d-4e4c-8ef1-7190459659b6",
+        "uuid": "cd9d2014-9f8d-4e4c-8ef1-7190459659b6",
+        "originalTitle": "Croptomize | Adding Crop - Select Basis "
+      }
+    ],
+    "Select Active Month": [
+      {
+        "name": "Select Active Month",
+        "className": "SelectActiveMonth",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/b1f69c4b-ec53-420d-8fa8-082ed7d9d131",
+        "uuid": "b1f69c4b-ec53-420d-8fa8-082ed7d9d131",
+        "originalTitle": "Croptomize | Adding Crop - Select Active Month (Selected)",
+        "variant": "Selected"
+      },
+      {
+        "name": "Select Active Month",
+        "className": "SelectActiveMonth",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/3e5153dc-406a-484c-b815-2d79650cd087",
+        "uuid": "3e5153dc-406a-484c-b815-2d79650cd087",
+        "originalTitle": "Croptomize | Adding Crop - Select Active Month "
+      }
+    ],
+    "Edit": [
+      {
+        "name": "Edit",
+        "className": "Edit",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/b096e0fd-3393-4aab-8ed2-455d4e2e27ef",
+        "uuid": "b096e0fd-3393-4aab-8ed2-455d4e2e27ef",
+        "originalTitle": "Croptomize | Edit [Field]",
+        "variant": "Field"
+      }
+    ],
+    "Pro Free Trial Email": [
+      {
+        "name": "Pro Free Trial Email",
+        "className": "ProFreeTrialEmail",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/22f9af06-a6d3-4fd3-b335-01a4a33e11ce",
+        "uuid": "22f9af06-a6d3-4fd3-b335-01a4a33e11ce",
+        "originalTitle": "Croptomize | Pro Free Trial Email "
+      },
+      {
+        "name": "Pro Free Trial Email",
+        "className": "ProFreeTrialEmail",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/e772f025-4e93-4022-a0d4-53a72a1f3012",
+        "uuid": "e772f025-4e93-4022-a0d4-53a72a1f3012",
+        "originalTitle": "Croptomize | Pro Free Trial Email (Focused & Filled Out)",
+        "variant": "Focused & Filled Out"
+      }
+    ],
+    "Pro Free Trial": [
+      {
+        "name": "Pro Free Trial",
+        "className": "ProFreeTrial",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/787916f2-7ea3-48b6-ac87-ace3f1dbabe3",
+        "uuid": "787916f2-7ea3-48b6-ac87-ace3f1dbabe3",
+        "originalTitle": "Croptomize | Pro Free Trial"
+      },
+      {
+        "name": "Pro Free Trial",
+        "className": "ProFreeTrial",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/8fd28793-6f91-402e-bef5-0ec31bc00454",
+        "uuid": "8fd28793-6f91-402e-bef5-0ec31bc00454",
+        "originalTitle": "Croptomize | Pay Wall - Pro Free Trial "
+      },
+      {
+        "name": "Pro Free Trial",
+        "className": "ProFreeTrial",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/494e99a1-2933-489f-80c3-345b4978ae05",
+        "uuid": "494e99a1-2933-489f-80c3-345b4978ae05",
+        "originalTitle": "Croptomize | Pay Wall - Pro Free Trial "
+      }
+    ],
+    "Account": [
+      {
+        "name": "Account",
+        "className": "Account",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/1b8f7ca4-6602-45b7-8465-333c2de0241f",
+        "uuid": "1b8f7ca4-6602-45b7-8465-333c2de0241f",
+        "originalTitle": "Croptomize | Account"
+      }
+    ],
+    "Subscription With Free Trial": [
+      {
+        "name": "Subscription With Free Trial",
+        "className": "SubscriptionWithFreeTrial",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/4806b5f1-d72f-4004-8890-87945ed811c1",
+        "uuid": "4806b5f1-d72f-4004-8890-87945ed811c1",
+        "originalTitle": "Croptomize | Subscription With Free Trial (Annual Selected) ",
+        "variant": "Annual Selected"
+      },
+      {
+        "name": "Subscription With Free Trial",
+        "className": "SubscriptionWithFreeTrial",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/f5c545d3-2627-4064-a212-3b8520b5bd52",
+        "uuid": "f5c545d3-2627-4064-a212-3b8520b5bd52",
+        "originalTitle": "Croptomize | Subscription With Free Trial (Trial Selected)",
+        "variant": "Trial Selected"
+      }
+    ],
+    "Localized Pricing": [
+      {
+        "name": "Localized Pricing",
+        "className": "LocalizedPricing",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/dc17da4b-6a27-4dbb-ab4d-946d6562d50c",
+        "uuid": "dc17da4b-6a27-4dbb-ab4d-946d6562d50c",
+        "originalTitle": "Croptomize | Pay Wall - Localized Pricing"
+      }
+    ],
+    "Price Check Modal": [
+      {
+        "name": "Price Check Modal",
+        "className": "PriceCheckModal",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/183f05fb-a491-4064-82bd-73a3e7d7946e",
+        "uuid": "183f05fb-a491-4064-82bd-73a3e7d7946e",
+        "originalTitle": "Croptomize | Pay Wall - Price Check Modal"
+      }
+    ],
+    "Onboarding 3": [
+      {
+        "name": "Onboarding 3",
+        "className": "Onboarding3",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/0e8d4713-f44b-48ce-b1da-f81a27823b6d",
+        "uuid": "0e8d4713-f44b-48ce-b1da-f81a27823b6d",
+        "originalTitle": "Croptomize | Onboarding 3 "
+      }
+    ],
+    "Onboarding 4": [
+      {
+        "name": "Onboarding 4",
+        "className": "Onboarding4",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/97c5979d-0689-4b2c-830e-0789f535c984",
+        "uuid": "97c5979d-0689-4b2c-830e-0789f535c984",
+        "originalTitle": "Croptomize | Onboarding 4"
+      }
+    ],
+    "Onboarding 5": [
+      {
+        "name": "Onboarding 5",
+        "className": "Onboarding5",
+        "url": "https://xd.adobe.com/spec/37334019-244e-4928-46b6-89c3ebd62927-4102/screen/bd6cb1ad-bb8e-41e2-b85b-2ca8f14ff207",
+        "uuid": "bd6cb1ad-bb8e-41e2-b85b-2ca8f14ff207",
+        "originalTitle": "Croptomize | Onboarding 5"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "appName": "croptomize",
+    "roleName": "pinpointLambdaRole03f27f4b",
+    "cloudWatchPolicyName": "cloudWatchPolicy03f27f4b",
+    "pinpointPolicyName": "pinpointPolicy03f27f4b",
+    "authPolicyName": "pinpoint_amplify_03f27f4b",
+    "unauthPolicyName": "pinpoint_amplify_03f27f4b",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

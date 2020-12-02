@@ -1,0 +1,12 @@
+{
+    "AppSyncApiName": "croptomize",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "DynamoDBEnablePointInTimeRecovery": "true",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcroptomizeiosanalytics",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

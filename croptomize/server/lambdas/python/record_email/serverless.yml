@@ -1,0 +1,36 @@
+service: croptomize-record-email
+
+provider:
+  name: aws
+  runtime: python3.7
+  profile: Croptomize
+  stage: dev
+  region: us-east-2
+  environment:
+    MAILCHIMP_API_KEY: ${ssm:mailchimpApiKey}
+    AUDIENCE_ID: ${ssm:audienceId}
+    STAGE: ${self:custom.stage}
+
+functions:
+  record_email:
+    handler: scripts/record_email.run
+    timeout: 20
+    memorySize: 128
+    events:
+      - http:
+          method: get
+          path: record_email
+
+plugins:
+  - serverless-python-requirements
+
+package:
+  exclude:
+    - node_modules
+
+custom:
+  stage: ${opt:stage, self:provider.stage}
+  pythonRequirements:
+    dockerizePip: non-linux
+    useDownloadCache: true
+    useStaticCache: true
